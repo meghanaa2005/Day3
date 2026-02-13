@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f2f2f2;
+    font-family:Arial;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+button{
+    font-size:30px;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+#counter{
+    font-size:40px;
+    font-weight:bold;
+    width:100px;
+    text-align:center;
+}
